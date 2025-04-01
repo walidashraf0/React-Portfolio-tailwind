@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "tailwindcss";
+
+.container {
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+@theme {
+    /* Fonts */
+    --font-poppins: "Poppins", sans-serif; 
+
+    /* breackpoints */
+    --breakpoint-sm: 36rem;
+    --breakpoint-md: 48rem;
+    --breakpoint-lg: 64rem;
+    --breakpoint-xl: 68.75rem;
+  }
