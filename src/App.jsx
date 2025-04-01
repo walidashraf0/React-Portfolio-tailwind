@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
@@ -20,6 +21,8 @@ const App = () => {
       <Skills />
       {/* Contact Section */}
       <Contact />
+      {/* Contact Section */}
+      <Footer />
     </>
   );
 };
