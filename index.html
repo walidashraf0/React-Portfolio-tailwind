@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,6 +7,22 @@
     <title>Walid Portfolio</title>
   </head>
   <body class="font-poppins bg-gray-950 text-white">
+    <form
+      name="contact v1"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot=""
+      bot-field
+    >
+      <input type="hidden" name="form-name" value="contact v1" />
+
+      <div hidden>
+        <input name="bot-field">
+      </div>
+      <input type="hidden" name="name" />
+      <input type="hidden" name="email" />
+      <textarea hidden name="message"></textarea>
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

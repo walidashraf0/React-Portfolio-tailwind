@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../components/Title";
 import Form from "../components/Form";
-import { Facebook, Instagram, Mail, Phone, Twitter } from "lucide-react";
+import { Facebook, Github, Instagram, Linkedin, Mail, Phone, Twitter } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -38,22 +38,22 @@ const Contact = () => {
 
             <div className="mb-4 flex flex-wrap items-center justify-start gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/Walid3455"
                 className="hover:-translate-y-2 hover:text-blue-600 transition-all duration-300 ease-in-out"
               >
                 <Facebook className="size-6" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/walid-ashraf1/"
                 className="hover:-translate-y-2 hover:text-blue-600 transition-all duration-300 ease-in-out"
               >
-                <Instagram className="size-6" />
+                <Linkedin className="size-6" />
               </a>
               <a
-                href="#"
+                href="https://github.com/walidashraf0"
                 className="hover:-translate-y-2 hover:text-blue-600 transition-all duration-300 ease-in-out"
               >
-                <Twitter className="size-6" />
+                <Github className="size-6" />
               </a>
             </div>
           </div>

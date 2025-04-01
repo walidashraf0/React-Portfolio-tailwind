@@ -22,9 +22,10 @@ const About = () => {
               isCenter={false}
             />
             <p className="leading-7">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A non
-              facere adipisci maiores accusamus ipsum consequuntur aliquam
-              incidunt, vero vitae?
+              I bring excellent teamwork abilities, effective time management,
+              and the capacity to work well under pressure. I also have
+              intermediate proficiency in English and am committed to continuous
+              improvement in both my professional and personal development
             </p>
           </div>
         </div>

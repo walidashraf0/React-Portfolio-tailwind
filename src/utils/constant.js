@@ -1,7 +1,7 @@
 // project images
-import Project1 from '../assets/project-1.png';
-import Project3 from '../assets/project-2.png';
-import Project2 from '../assets/project-3.png';
+import Project1 from '../assets/Ecommerce.png';
+import Project2 from '../assets/Cyporg.png';
+import Project3 from '../assets/FreshCart.png';
 
 // skills images
 import Html from '../assets/html5.svg';
@@ -11,41 +11,41 @@ import React from '../assets/react.svg';
 import Node from '../assets/nodejs.svg';
 import TypeScript from '../assets/typescript.svg';
 import Tailwind from '../assets/tailwindcss.svg';
-import Postgres from '../assets/postgresql.svg';
+// import Postgres from '../assets/postgresql.svg';
 
 export const projects = [
   {
     id: 1,
-    title: 'Zen',
+    title: 'Wego',
     description:
-      'Zen is a modern hotel website built with Next.js, featuring a sleek design powered by Tailwind CSS. It offers an intuitive user interface to explore rooms, amenities, and make reservations seamlessly.',
+      'Wego is a modern Ecommerce website built with React.js, featuring a sleek design powered by CSS Bootstrap. It offers an intuitive user interface to explore products, categories, and make orders seamlessly.',
     image: Project1,
-    stack: ['React', 'Next.js', 'Tailwind CSS'],
-    liveUrl: 'https://www.google.com',
-    sourceUrl: 'https://www.google.com',
+    stack: ['React', 'Next.js', 'CSS Bootstrap'],
+    liveUrl: 'https://e-commerce-frontend-backend.vercel.app/',
+    sourceUrl: 'https://github.com/walidashraf0/E-commerce-frontend-backend.git',
   },
 
   {
     id: 2,
-    title: 'Pixar',
+    title: 'CYPORG',
     description:
-      'Pixar is a website clone built with React, featuring a responsive design, carousels, and a navigation system. The website is a perfect example of how to create a modern website with a clean and minimalistic design.',
+      'Cyporg is a website Gaming clone built with React, featuring a responsive design, carousels, and a navigation system. The website is a perfect example of how to create a modern website with a clean and minimalistic design.',
 
     image: Project2,
     stack: ['React', 'Tailwind CSS', 'JavaScript'],
-    liveUrl: 'https://www.google.com',
-    sourceUrl: 'https://www.google.com',
+    liveUrl: '/',
+    sourceUrl: 'https://github.com/walidashraf0/CYBORG.git',
   },
 
   {
     id: 3,
-    title: 'Furniq',
+    title: 'Fresh Cart',
     description:
       'This project is a modern furniture e-commerce website with a clean and minimalistic design. The website is built with React and features a responsive design, a functional shopping cart, and a user-friendly navigation system.',
     image: Project3,
-    stack: ['React', 'Tailwind CSS', 'JavaScript'],
-    liveUrl: 'https://www.google.com',
-    sourceUrl: 'https://www.google.com',
+    stack: ['React', 'CSS Bootstrap', 'JavaScript'],
+    liveUrl: '/',
+    sourceUrl: 'https://github.com/walidashraf0/Second-React-Project.git',
   },
 ];
 
@@ -92,9 +92,9 @@ export const skills = [
     icon: Tailwind,
   },
 
-  {
-    id: 8,
-    name: 'Postgres',
-    icon: Postgres,
-  },
+  // {
+  //   id: 8,
+  //   name: 'Postgres',
+  //   icon: Postgres,
+  // },
 ];

@@ -12,7 +12,7 @@ const Skills = () => {
           isCenter={true}
           subtitle={"Technologies I Work With"}
         />
-        <div className="grid grid-cols-2 md:grid-cools-4 gap-4 lg:grid-cols-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:grid-cols-7">
           {skills.map((skill) => (
             <div key={skill.id} className="flex items-center gap-2 flex-col">
               <img

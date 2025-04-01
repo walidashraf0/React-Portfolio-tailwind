@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg from "../assets/hero-image.png";
+import HeroImg from "../assets/hero-image.jpg";
 
 const Hero = () => {
   return (
@@ -25,12 +25,12 @@ const Hero = () => {
                 </span>
               </h1>
               <p className="mb-4 md:text-lg">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Molestiae labore consectetur, aut, ratione aliquid autem
-                inventore iusto est assumenda vel quisquam dolorum error nemo
-                eligendi fugit ut culpa ipsam fugiat ab odit placeat neque dolor
-                esse! Laborum placeat rem quo autem porro quae labore aut optio
-                quia? Odit, quae error.
+                I am a skilled and detail-oriented Frontend Developer with over
+                2 years of experience, specializing in frontend development and
+                website design. I possess strong creative and analytical
+                abilities, with a keen eye for detail. I have developed a solid
+                foundation in various frontend technologies and am adept at
+                creating responsive and user-friendly web applications.
               </p>
               <a
                 className="px-6 py-3 inline-block capitalize font-semibold bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-md"
