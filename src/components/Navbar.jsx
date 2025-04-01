@@ -23,8 +23,8 @@ const Navbar = ({ isClicked, toggleNavClick }) => {
           const sectionHeight = section.offsetHeight;
 
           if (
-            scrolPosition >= screenTop &&
-            scrolPosition <= sectionHeight + sectionHeight
+            scrolPosition >= sectionTop &&
+            scrolPosition <= sectionTop + sectionHeight
           ) {
             setActiveLink(section.id);
           }
