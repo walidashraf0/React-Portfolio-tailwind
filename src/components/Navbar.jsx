@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 
 const navigation = [
-  { name: "Home", url: "#home" },
-  { name: "Projects", url: "#projects" },
-  { name: "About", url: "#about" },
-  { name: "Skills", url: "#skills" },
-  { name: "Contact", url: "#contact" },
+  { name: "home", url: "#home" },
+  { name: "projects", url: "#projects" },
+  { name: "about", url: "#about" },
+  { name: "skills", url: "#skills" },
+  { name: "contact", url: "#contact" },
 ];
 
 const Navbar = ({ isClicked, toggleNavClick }) => {
-  const [activeLink, setActiveLink] = useState("Home");
+  const [activeLink, setActiveLink] = useState("home");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,6 +18,7 @@ const Navbar = ({ isClicked, toggleNavClick }) => {
 
       sections.forEach((section) => {
         if (section) {
+          console.log(section.id)
           const sectionTop = section.offsetTop;
           const sectionHeight = section.offsetHeight;
 
@@ -65,9 +66,9 @@ const Navbar = ({ isClicked, toggleNavClick }) => {
       <nav className="hidden md:inline-flex">
         <ul className="flex gap-10 capitalize">
           {navigation.map((item, key) => (
-            <li key={key} className="inline-block font-medium">
+            <li key={key} className="inline-block">
               <a
-                className={`relative after:absolute after:bottom-[-0.2rem] after:left-0 after:h-[3px] after:w-[20px] after:rounded-xl afetr:transition-all after:duration-300 after:ease-in hover:after:bg-blue-600 hover:after:w-full ${
+                className={`relative font-semibold after:absolute after:bottom-[-0.2rem] after:left-0 after:h-[3px] after:w-[20px] after:rounded-xl afetr:transition-all after:duration-300 after:ease-in hover:after:bg-blue-600 hover:after:w-full ${
                   activeLink === item.name ? "text-blue-600 relative after:absolute after:bottom-[-0.2rem] after:left-0 after:h-[3px] after:w-full after:bg-blue-600 after:rounded-xl afetr:transition-all after:duration-300 after:ease-in hover:after:bg-blue-600 hover:after:w-full" : "text-white"
                 } hover:text-blue-600 transition-colors duration-300 ease-in`}
                 href={item.url}
