@@ -2,6 +2,7 @@
 import Project1 from '../assets/Ecommerce.png';
 import Project2 from '../assets/Cyporg.png';
 import Project3 from '../assets/FreshCart.png';
+import Project4 from '../assets/OnlineBookStore.png';
 
 // skills images
 import Html from '../assets/html5.svg';
@@ -46,6 +47,16 @@ export const projects = [
     stack: ['React', 'CSS Bootstrap', 'JavaScript'],
     liveUrl: '/',
     sourceUrl: 'https://github.com/walidashraf0/Second-React-Project.git',
+  },
+  {
+    id: 4,
+    title: 'Online Book Store',
+    description:
+      'This project is a modern online book store website with a clean and minimalistic design. The website is built with React, tailwindCSS and features a responsive design, a functional services, and a user-friendly navigation system.',
+    image: Project4,
+    stack: ['React', 'TailwindCSS', 'JavaScript', "Context Api"],
+    liveUrl: 'https://online-book-store-zeta-bay.vercel.app/',
+    sourceUrl: 'https://github.com/walidashraf0/Online-Book-Store.git',
   },
 ];
 
