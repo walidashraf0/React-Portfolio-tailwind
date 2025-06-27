@@ -1,105 +1,117 @@
 // project images
-import Project1 from '../assets/Ecommerce.png';
-import Project2 from '../assets/Cyporg.png';
-import Project3 from '../assets/FreshCart.png';
-import Project4 from '../assets/OnlineBookStore.png';
+import Project1 from "../assets/Ecommerce.png";
+import Project2 from "../assets/Cyporg.png";
+import Project3 from "../assets/FreshCart.png";
+import Project4 from "../assets/OnlineBookStore.png";
+import Project5 from "../assets/PortfolioWithFramer-Motion.png";
 
 // skills images
-import Html from '../assets/html5.svg';
-import Css from '../assets/css.svg';
-import Js from '../assets/javascript.svg';
-import React from '../assets/react.svg';
-import Node from '../assets/nodejs.svg';
-import TypeScript from '../assets/typescript.svg';
-import Tailwind from '../assets/tailwindcss.svg';
+import Html from "../assets/html5.svg";
+import Css from "../assets/css.svg";
+import Js from "../assets/javascript.svg";
+import React from "../assets/react.svg";
+import Node from "../assets/nodejs.svg";
+import TypeScript from "../assets/typescript.svg";
+import Tailwind from "../assets/tailwindcss.svg";
 // import Postgres from '../assets/postgresql.svg';
 
 export const projects = [
   {
     id: 1,
-    title: 'Wego',
+    title: "Wego",
     description:
-      'Wego is a modern Ecommerce website built with React.js, featuring a sleek design powered by CSS Bootstrap. It offers an intuitive user interface to explore products, categories, and make orders seamlessly.',
+      "Wego is a modern Ecommerce website built with React.js, featuring a sleek design powered by CSS Bootstrap. It offers an intuitive user interface to explore products, categories, and make orders seamlessly.",
     image: Project1,
-    stack: ['React', 'Next.js', 'CSS Bootstrap'],
-    liveUrl: 'https://e-commerce-frontend-backend.vercel.app/',
-    sourceUrl: 'https://github.com/walidashraf0/E-commerce-frontend-backend.git',
+    stack: ["React", "Next.js", "CSS Bootstrap"],
+    liveUrl: "https://e-commerce-frontend-backend.vercel.app/",
+    sourceUrl:
+      "https://github.com/walidashraf0/E-commerce-frontend-backend.git",
   },
 
   {
     id: 2,
-    title: 'CYPORG',
+    title: "CYPORG",
     description:
-      'Cyporg is a website Gaming clone built with React, featuring a responsive design, carousels, and a navigation system. The website is a perfect example of how to create a modern website with a clean and minimalistic design.',
+      "Cyporg is a website Gaming clone built with React, featuring a responsive design, carousels, and a navigation system. The website is a perfect example of how to create a modern website with a clean and minimalistic design.",
 
     image: Project2,
-    stack: ['React', 'Tailwind CSS', 'JavaScript'],
-    liveUrl: '/',
-    sourceUrl: 'https://github.com/walidashraf0/CYBORG.git',
+    stack: ["React", "Tailwind CSS", "JavaScript"],
+    liveUrl: "/",
+    sourceUrl: "https://github.com/walidashraf0/CYBORG.git",
   },
 
   {
     id: 3,
-    title: 'Fresh Cart',
+    title: "Fresh Cart",
     description:
-      'This project is a modern furniture e-commerce website with a clean and minimalistic design. The website is built with React and features a responsive design, a functional shopping cart, and a user-friendly navigation system.',
+      "This project is a modern furniture e-commerce website with a clean and minimalistic design. The website is built with React and features a responsive design, a functional shopping cart, and a user-friendly navigation system.",
     image: Project3,
-    stack: ['React', 'CSS Bootstrap', 'JavaScript'],
-    liveUrl: '/',
-    sourceUrl: 'https://github.com/walidashraf0/Second-React-Project.git',
+    stack: ["React", "CSS Bootstrap", "JavaScript"],
+    liveUrl: "/",
+    sourceUrl: "https://github.com/walidashraf0/Second-React-Project.git",
   },
   {
     id: 4,
-    title: 'Online Book Store',
+    title: "Online Book Store",
     description:
-      'This project is a modern online book store website with a clean and minimalistic design. The website is built with React, tailwindCSS and features a responsive design, a functional services, and a user-friendly navigation system.',
+      "This project is a modern online book store website with a clean and minimalistic design. The website is built with React, tailwindCSS and features a responsive design, a functional services, and a user-friendly navigation system.",
     image: Project4,
-    stack: ['React', 'TailwindCSS', 'JavaScript', "Context Api"],
-    liveUrl: 'https://online-book-store-zeta-bay.vercel.app/',
-    sourceUrl: 'https://github.com/walidashraf0/Online-Book-Store.git',
+    stack: ["React", "TailwindCSS", "JavaScript", "Context Api"],
+    liveUrl: "https://online-book-store-zeta-bay.vercel.app/",
+    sourceUrl: "https://github.com/walidashraf0/Online-Book-Store.git",
+  },
+  {
+    id: 5,
+    title: "Portfolio With Framer Motion",
+    description:
+      "This project is a modern portfolio website with a clean and minimalistic design. The website is built with React, tailwindCSS and features a responsive design and using Framer Motion for some animation, a functional services, and a user-friendly navigation system.",
+    image: Project5,
+    stack: ["React", "TailwindCSS", "JavaScript", "Framer Motion", "Swiper"],
+    liveUrl: "https://portfolio-framer-motion-ktdm0bbma.vercel.app/",
+    sourceUrl: "https://github.com/walidashraf0/Portfolio-Framer-motion.git",
   },
 ];
 
 export const skills = [
   {
     id: 1,
-    name: 'HTML',
+    name: "HTML",
     icon: Html,
   },
 
   {
     id: 2,
-    name: 'CSS',
+    name: "CSS",
     icon: Css,
   },
 
   {
     id: 3,
-    name: 'JavaScript',
+    name: "JavaScript",
     icon: Js,
   },
 
   {
     id: 4,
-    name: 'React',
+    name: "React",
     icon: React,
   },
 
   {
     id: 5,
-    name: 'Node',
+    name: "Node",
     icon: Node,
   },
 
   {
     id: 6,
-    name: 'TypeScript',
+    name: "TypeScript",
     icon: TypeScript,
   },
 
   {
     id: 7,
-    name: 'Tailwind',
+    name: "Tailwind",
     icon: Tailwind,
   },
 
